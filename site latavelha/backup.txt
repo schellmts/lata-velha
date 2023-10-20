@@ -1,0 +1,98 @@
+<div id="carouselExampleCaptions" class="hero carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption">
+            <h5>Ótimos <span>preços</span> e <span>seviços.</span></h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste et
+              eos repudiandae maiores officia voluptatibus?</p>
+            <p><a href="#">Ver mais</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h5>Atendimento de<span> Qualidade.</span></h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste et
+              eos repudiandae maiores officia voluptatibus?</p>
+            <p><a href="#">Ver Mais</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h5>Peças com ótima <span>Qualidade.</span></h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste et
+              eos repudiandae maiores officia voluptatibus?</p>
+            <p><a href="#">Ver Mais</a></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button"
+        data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button"
+        data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    .carousel {
+    background-image: url(/assets/img/home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    transition: transform 1s ease, opacity .5s ease-out;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    margin-top: 45px;
+    color: #08194a;
+    font-weight: 700;
+    text-align: left;
+}
+
+.carousel-caption h5 span {
+    color: #e53f29;
+}
+
+.carousel-caption p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #08194a;
+    text-align: left;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #08194a;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+}

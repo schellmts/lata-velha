@@ -5,10 +5,18 @@
     scroll-behavior: smooth;
 }
 
-.carousel {
-    background-image: url(/assets/img/3.jpg);
+.carousel-item {
+    background-image: url("../img/home.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.segunda-img {
+    background-image: url("../img/about.jpg");
+}
+
+.terceira-img {
+    background-image: url("../img/hero.jpeg");
 }
 
 .hero .carousel-item {
@@ -55,7 +63,7 @@
 }
 
 .section-header {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .section-header h2 {
@@ -315,3 +323,64 @@ footer {
     margin:  0 15px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-text h2 {
+        margin: 20px 0;
+    }
+
+    .single-services {
+        margin-bottom: 30px;
+    }
+
+    .single-box {
+        margin-bottom: 30px;
+    }
+    
+    .single-client {
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 120px;
+        margin-left: 20px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .section-header h2 {
+        font-size: 30px;
+    }
+
+    .single-services {
+        margin-bottom: 30px;
+    }
+
+    .single-box {
+        margin-bottom: 30px;
+    }
+
+    .single-client {
+        margin-bottom: 35px;
+    }
+}
