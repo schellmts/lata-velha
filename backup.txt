@@ -96,3 +96,65 @@
     margin-top: 15px;
     border-radius: 5px;
 }
+
+
+ <div class="galeria section-padding" id="galeria">
+      <div class="col-lg-12">
+        <div class="section-header text-center">
+          <h2>Galeria</h2>
+          <p>Confira aqui os carros que temos para desmontar.</p>
+        </div>
+      </div>
+      <div class="containers">
+        <div class="cards-gallery">
+          <div class="cards">
+            <img src="./assets/img/escort.webp" alt>
+            <div class="card_body">
+              <h6 class="card_title">Escort</h6>
+              <p class="card_text">Marca: <span>Ford</span></p>
+              <p class="card_text2">Ano: 1986</p>
+            </div>
+          </div>
+          <div class="cards">
+            <img src="./assets/img/kwid.jpg" alt>
+            <div class="card_body">
+              <h6 class="card_title">Kwid</h6>
+              <p class="card_text">Marca: <span>Renault</span></p>
+              <p class="card_text2">Ano: 2018</p>
+            </div>
+          </div>
+          <div class="cards">
+            <img src="./assets/img/onix.jpg" alt>
+            <div class="card_body">
+              <h6 class="card_title">Onix</h6>
+              <p class="card_text">Marca: <span>Chevrolet</span></p>
+              <p class="card_text2">Ano: 2016</p>
+            </div>
+          </div>
+          <div class="cards">
+            <img src="./assets/img/strada.jpg" alt>
+            <div class="card_body">
+              <h6 class="card_title">Strada</h6>
+              <p class="card_text">Marca: <span>Fiat</span></p>
+              <p class="card_text2">Ano: 2016</p>
+            </div>
+          </div>
+          <div class="cards">
+            <img src="./assets/img/uno.jpg" alt>
+            <div class="card_body">
+              <h6 class="card_title">Uno</h6>
+              <p class="card_text">Marca: <span>Fiat</span></p>
+              <p class="card_text2">Ano: 2008</p>
+            </div>
+          </div>
+          <div class="cards">
+            <img src="./assets/img/voyage.jpg" alt>
+            <div class="card_body">
+              <h6 class="card_title">Voyage</h6>
+              <p class="card_text">Marca: <span>Volkswagen</span></p>
+              <p class="card_text2">Ano: 1984</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

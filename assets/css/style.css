@@ -28,7 +28,7 @@
 .carousel-caption {
     bottom: 220px;
     z-index: 2;
-    left: 8%;
+    left: 10%;
 }
 
 .carousel-caption h5 {
@@ -105,7 +105,8 @@
     padding: 1px 5px;
     font-size: 18px;
     line-height: 0.3;
-    background: #fff;
+    background: none;
+    border: none;
 }
 
 .img-area img {
@@ -264,6 +265,10 @@
     padding: 20px 30px;
 }
 
+.text-loja p {
+    font-size: 20px;
+}
+
 .single-box {
     padding: 20px;
 }
@@ -347,7 +352,7 @@ footer {
     }
 
     .carousel-caption {
-        bottom: 120px;
+        bottom: 150px;
         margin-left: 20px;
     }
 
@@ -382,5 +387,9 @@ footer {
 
     .single-client {
         margin-bottom: 35px;
+    }
+
+    .text-loja p {
+        font-size: 20px;
     }
 }
