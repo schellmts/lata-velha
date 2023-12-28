@@ -3,6 +3,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 .carousel {
@@ -58,7 +59,7 @@
 }
 
 .section-header h2 {
-    color: #ff8d39;
+    color: #fff;
     font-size: 45px;
     font-weight: 700;
 }
@@ -111,15 +112,15 @@
 .about-text h2 {
     font-size: 45px;
     font-weight: 700;
-    color: #ea4c31;
+    color: #fff;
 }
 
 .about-text h2 span {
-    color: #ff8d39;
+    color: #ea4c31;
 }
 
 .about-text p {
-    color: #ea4c31;
+    color: #ff8d39;
 }
 
 .about-text .btn {
@@ -149,7 +150,7 @@
 }
 
 .loja h2 {
-    color: #ff8d39;
+    color: #fff;
     font-size: 45px;
     font-weight: 700;
 }
@@ -159,7 +160,7 @@
 }
 
 .loja p {
-    color: #ea4c31;
+    color: #ff8d39;
     font-weight: 500;
 }
 
@@ -192,11 +193,7 @@
 }
 
 .choose-area .single-box h2 {
-    color: #ff8d39;
-}
-
-.choose-area .single-box p {
-    color: #e53f29;
+    color: #fff;
 }
 
 .containers {
@@ -225,7 +222,7 @@
 
 .text-social a {
     text-decoration: none;
-    color: #ff8d39;
+    color: #fff;
     text-shadow: 1px 1px black;
     font-size: 20px;
     transition: all .1s ease-in;
@@ -252,6 +249,59 @@
 
 .text-loja p {
     font-size: 20px;
+}
+
+.card img {
+    height: 250px;
+}
+
+.paginas {
+    text-align: center;
+    margin: 30px 30px 60px;
+    user-select: none;
+}
+
+.paginas li {
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.paginas li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 45px;
+}
+
+.previous-page, .next-page {
+    background: #e53f29;
+    width: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.previous-page:hover {
+    transform: translateX(-5px);
+}
+
+.next-page:hover {
+    transform: translateX(5px);
+}
+
+.current-page, .dots {
+    background: #ff8d39;
+    width: 45px;
+    border-radius: 20%;
+}
+
+.actived {
+    background: #e53f29;
+}
+
+.disable {
+    background: #ccc;
 }
 
 .single-box {
