@@ -158,3 +158,33 @@
         </div>
       </div>
     </div>
+
+
+    <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-services text-center">
+                <i class="fa fa-automobile"></i>
+                <h2>PEÇAS PARA LATARIA</h2>
+                <p>Contamos com estoque de peças Originais de lataria para carros nacionais e importados.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-services text-center">
+                <i class="fa fa-cogs"></i>
+                <h2>PEÇAS DE SUSPENSÃO E MOTOR</h2>
+                <p>Temos em nosso estoque peças para suspensão e motores de carros nacionais e importados.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-services text-center">
+                <i class="fa-solid fa-car-battery"></i>
+                <h2>ACABAMENTOS</h2>
+                <p>Se está procurando algum acabamento interno ou externo de seu veículo, consulte nosso estoque.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-services text-center">
+                <i class="fa fa-wrench"></i>
+                <h2>MOTORES E CAIXAS DE CÂMBIO</h2>
+                <p>Vendemos Motores e Caixas de Câmbios Revisados e Com Nota Fiscal, conforme a Legislação Vigente.!</p>
+              </div>
+            </div>
