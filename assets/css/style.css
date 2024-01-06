@@ -176,7 +176,7 @@
 }
 
 .services {
-    background: #2c2c2c;
+    background: #292929;
 }
 
 .services .card {
@@ -197,7 +197,7 @@
 } 
 
 .choose {
-    background: #292929;
+    background: #2c2c2c;
 }
 
 .choose-img img {
@@ -217,7 +217,7 @@
 }
 
 .contact {
-    background: #2c2c2c;
+    background: #292929;
 }
 .contact p {
     color: #fff;
@@ -264,7 +264,7 @@
 }
 
 .galeria {
-    background: #292929;
+    background: #2c2c2c;
 }
 
 .galeria .card {
@@ -314,7 +314,7 @@
 }
 
 .testmonial{
-    background: #292929;
+    background: #2c2c2c;
 }
 
 .testmonial .single-client h2{
@@ -461,6 +461,10 @@
 
     .text-loja p {
         font-size: 20px;
+    }
+
+    .text-loja a {
+        margin-bottom: 10px;
     }
 }
 
