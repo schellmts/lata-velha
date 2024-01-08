@@ -7,7 +7,7 @@
 }
 
 .carousel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(../img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.581)), url(../img/header.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -26,7 +26,7 @@
 
 .carousel-caption h5 {
     font-size: 45px;
-    color: #262626;
+    color: #fff;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
@@ -475,5 +475,12 @@
 
     .carousel-caption p {
         font-size: 13px;
+    }
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
