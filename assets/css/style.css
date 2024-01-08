@@ -91,8 +91,24 @@
     color: #ff8d39;
 }
 
+.navbar-nav a:active {
+    color: #e53f29;
+}
+
+.nome {
+    font-size: 28px;
+    color:#e53f29;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.nome:hover {
+    color: #ff8d39;
+}
+
+
 .navbar-light .navbar-brand img {
-    width: 50px;
+    width: 60px;
 }
 
 .section-padding {
